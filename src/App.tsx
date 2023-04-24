@@ -1,9 +1,10 @@
 import React from "react";
+import Listagem from "./components/Listagem";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Rodando...</h1>
+			<Listagem initialItems={["Wellinne", "Nascimento", "Aquino"]} />
 		</div>
 	);
 }
